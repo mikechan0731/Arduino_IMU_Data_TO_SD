@@ -77,7 +77,7 @@ for eline in all_data:
         if e < 7 :
             edate = edate + str(eline[e]) + "\t"
         elif e == 7:
-            edate = edate + str(eline[e]) + "\n"
+            edate = edate + str(eline[e])
         else:
             print 'error'
 
